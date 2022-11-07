@@ -1,0 +1,94 @@
+:root {
+  --primary-color: aqua;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: cursive;
+  min-width: 100vw;
+}
+
+.heading {
+  font-weight: 800;
+  font-style: oblique;
+  margin-left: 4em;
+  margin-top: 0.7em;
+  margin-bottom: 0.6em;
+  background-color: chartreuse;
+  text-align: center;
+}
+
+.description {
+  font-size: large;
+  font-weight: 550;
+  text-shadow: 1em;
+  margin: 1rem;
+}
+
+.labelCss {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.inputCss {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 1.8px solid pink;
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 300px;
+  background-color: ghostwhite;
+}
+
+#button-Check {
+  background-color: rgb(50, 55, 61);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 50% solid rgb(105, 98, 98);
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+  width: 85px;
+  height: 45px;
+  top: auto;
+}
+
+#error-message {
+  display: block;
+  font-size: medium;
+  margin: 1rem 0 0;
+  color: rgb(66, 58, 58);
+}
+
+.captionCss {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem;
+  background-color: blueviolet;
+}
+
+.change-table {
+  width: 100%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
